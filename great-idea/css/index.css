@@ -64,3 +64,235 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+
+
+
+
+
+
+
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+  header{
+	display: flex;
+	justify-content: space-between;
+  }
+
+
+  header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+	/* border: 1px solid red; */
+	margin-top: 35px;
+  }
+  
+  header nav a {
+
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
+  header .logo {
+	margin-top: 25px;
+  }
+  
+  /* cta */
+  .cta {
+	  display: flex;
+  }
+
+
+  .cta .cta-text {
+	/* display: inline-block; */
+	vertical-align: top;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center;
+	padding: 0px 75px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .cta img {
+	margin-top: 69px;
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+  
+  .main-content .top-content {
+	display: flex;
+	padding: 0 10px;
+  }
+  
+  .main-content .top-content .text-content {
+	width: 410px;
+	/* display: inline-block; */
+	margin-right: 34px;
+  }
+  
+  .main-content .top-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content .bottom-content {
+	display: flex;
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main-content .bottom-content .text-content {
+	width: 275px;
+	/* display: inline-block; */
+	margin-right: 12px;
+  }
+  
+  .main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .contact p {
+	margin: 20px 0;
+  }
+  
+  footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+
+  .services .services-header-img {
+	  display: block;
+	  margin: 30px 0;
+  }
+
+  .services .services-info {
+	  padding-bottom: 30px;
+	  margin-bottom: 30px;
+	  border-bottom: 2px solid black;
+  }
+
+  .services .services-info h1 {
+	font-size: 25px;
+}
+
+  .service .flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	margin-bottom: 30px;
+  }
+
+  .service .con {
+	  width: 48%;
+	  margin-bottom: 30px;
+	  border: 1px solid black;
+	  padding: 20px;
+	  background: lightgray;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-evenly;
+  }
+
+  .service .con p {
+	line-height: 1.2;
+	padding-bottom: 20px;
+  }
+
+  .service .button {
+	  border: 1px solid black;
+	  border-radius: 5px;
+	  width: 200px;
+	  height: 40px;
+	  font-size: 13px;
+	  font-weight: bold;
+	  color:black;
+	  text-decoration: none;
+	  background: white;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+  }
+
+  .additional-info {
+	  display: flex;
+	  justify-content: space-between;
+	  margin-bottom: 100px;
+  }
+
+  .facts , .services-info-img {
+	  width: 48%;
+  }
+
+  .facts {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: flex-start;
+  }
+
+  .facts p {
+	margin-bottom: 20px;
+  }
+
+  .facts ul {
+	display: block;
+	line-height: 2;
+	font-weight: bold;
+  }
+
+  .facts li {
+	list-style-type: square;
+	font-size: 15px;
+	list-style-position: inside;
+  }
+
